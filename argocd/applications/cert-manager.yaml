@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://charts.jetstack.io'
+    repoURL: git@github.com:hashbang/gitops.git
     chart: cert-manager
-    targetRevision: v0.15.1
+    targetRevision: v0.0.0
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: cert-manager
